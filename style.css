@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.elecciones {
+    margin: 20px;
+}
+
+.eleccion {
+    font-size: 40px;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.eleccion:hover {
+    transform: scale(1.1);
+}
+
+.resultado {
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+#mensaje {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#mensaje.ganar {
+    color: green;
+}
+
+#mensaje.perder {
+    color: red;
+}
+
+#mensaje.dibujar {
+    color: gray;
+}
